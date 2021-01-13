@@ -35,7 +35,7 @@ void draw(){
   
   // this is basically the UPDATE design pattern:
   thePlayer.update();
-  
+  for (Asteroid a : asteroids) a.update();
   // === DRAW ===
   // render all game objects
   background(0);
